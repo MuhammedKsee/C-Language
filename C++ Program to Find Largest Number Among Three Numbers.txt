@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, const char** argv) {
+
+    int data1,data2,data3;
+
+    std::cout << "Please enter first number" << std::endl;
+    std::cin>>data1;
+    std::cout << "Please enter second number" << std::endl;
+    std::cin>>data2;
+    std::cout << "Please enter third number" << std::endl;
+    std::cin>>data3;
+
+
+    if (data1>data2&&data1>data3)
+    {
+        std::cout <<data1<< "is a largest number" << std::endl;
+    }
+    else if (data2>>data1&&data2>>data3) 
+    {
+        std::cout <<data2<< "is a largest number" << std::endl;
+    }
+    else
+    {
+        std::cout <<data3<< "is a largest number" << std::endl;
+    }
+
+    return 0;
+}

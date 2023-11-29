@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, const char** argv) {
+
+    char data;
+    std::cout << "Please enter character" << std::endl;
+    std::cin>>data;
+
+    
+
+
+    if (data == 'e'||data == 'a'||data == 'i'||data == 'u'||data == 'o')
+    {
+        std::cout << data << " is a Vowel" << std::endl;
+    }
+    else{
+        std::cout << data << " is a Consonant" << std::endl;
+    }
+    return 0;
+}

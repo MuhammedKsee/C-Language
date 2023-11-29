@@ -1,0 +1,14 @@
+#include<iostream>
+
+using namespace std;
+int main(){
+   int num1 = 5;
+   float num2 = 5.5;
+   double num3 = 5.231323123;
+   char ch = 'B';
+   
+   std::cout<<"Size of int : "<<sizeof(num1)<<endl;
+   std::cout<<"Size of float : "<<sizeof(num2)<<endl;
+   std::cout<<"Size of double : "<<sizeof(num3)<<endl;
+   std::cout<<"Size of char : "<<sizeof(ch)<<endl;
+}

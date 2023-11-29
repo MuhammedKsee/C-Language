@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Sayi giriniz."<< std::endl;
+    int sayi1;
+   
+    std::cin >> sayi1;
+    std::cout<<"Girilen sayi : "<<sayi1<<std::endl;
+    
+    return 0;
+}

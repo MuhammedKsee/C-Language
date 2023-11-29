@@ -1,0 +1,14 @@
+#include<iostream>
+
+using namespace std;
+int main(){
+   int sayi1,sayi2;
+   
+   std::cout << "please enter first number." << std::endl;
+   std::cin >> sayi1;
+   std::cout << "please enter second number." << std::endl;
+   std::cin >> sayi2;
+   
+   std::cout << "Sum of the two number is : "<<sayi1+sayi2 << std::endl;
+    
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, const char** argv) {
+
+    int data1,data2;
+    cout<<"Please enter first number : ";
+    cin>>data1;
+    cout<<"Please enter second number : ";
+    cin>>data2;
+
+    int temp = data1;
+    data1 = data2;
+    data2 = temp;
+
+    std::cout << "New first number : " <<data1<< std::endl;
+    std::cout << "New second number : " <<data2<< std::endl;
+
+    return 0;
+}
